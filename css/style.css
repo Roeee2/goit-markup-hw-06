@@ -749,7 +749,6 @@ a:focus {
   flex-direction: column;
   flex-shrink: 0;
   height: 581px;
-  border: solid 1px red;
 }
 .contact-form h2 {
   font-size: 20px;
@@ -825,7 +824,7 @@ a:focus {
 }
 
 .checkbox-container a {
-  margin: 1ch;
+  margin: 0.5ch;
 }
 .checkbox-container input[type="checkbox"] {
   opacity: 0;
@@ -890,7 +889,6 @@ a:focus {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.42px;
-  border: solid 1px red;
 }
 .declaration-link {
   text-decoration: underline;
