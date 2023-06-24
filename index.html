@@ -16,7 +16,7 @@
     <header class="header-box">
       <div class="header-container">
         <section class="logo">
-          <a href="https://roeee2.github.io/goit-markup-hw-05/"
+          <a href="https://roeee2.github.io/goit-markup-hw-06/"
             ><h2>
               <span class="logo-logo">Web</span
               ><span class="logo-studio">Studio</span>
@@ -472,7 +472,7 @@
       <div class="footer-container">
         <section id="contact">
           <div class="footer-logo">
-            <a href="https://roeee2.github.io/goit-markup-hw-05/"
+            <a href="https://roeee2.github.io/goit-markup-hw-06/"
               ><h2>
                 <span class="logo-logo">Web</span
                 ><span class="logo-studio-light">Studio</span>
@@ -587,7 +587,7 @@
             <label>
               <h3>Telefon</h3>
               <div class="contact-field">
-                <input type="number" name="contact-phone" class="contact-form-box" />
+                <input type="text" name="contact-phone" class="contact-form-box" />
                 <svg width="18px" height="18px">
                   <use href="./images/icons.svg#icon-phone-black"></use>
                 </svg>
@@ -605,18 +605,37 @@
             <label>
               <h3>Komentarz</h3>
               <div class="contact-field">
-                <textarea class="contact-form-comment" name="comment" rows="6" placeholder="Wprowadź tekst">
+                <textarea class="contact-form-comment" name="comment" rows="5" placeholder="Wprowadź tekst">
                 </textarea>
               </div>
             </label>
-            <label>
-              <div class="checkbox">
-                <input type="checkbox" name="contact-checkbox" class="contact-checkbox" />
-                <svg width="16px" height="15px">
-                  <use href="./images/icons.svg#icon-checkbox"></use>
-                </svg>
+  
+              <div class="checkbox-container">
+                <input type="checkbox" id="checkbox1" name="contact-checkbox" class="checkbox" />
+                  
+              
+                <label for="checkbox1" class="declaration">
+                  <div class="empty-box">
+                    <svg width="16px" height="15px">
+                      <use href="./images/icons.svg#icon-checkbox"></use>
+                    </svg>
+                  </div>
+                  <div class="box-checked">
+                    <svg width="16px" height="15px">
+                      <use href="./images/icons.svg#icon-checkbox-blue"></use>
+                    </svg>
+                  </div>
+                  Oświadczam iż akceptuję <a class="declaration-link" href="#">Regulamin</a> i
+                <a class="declaration-link" href="#">Politykę Prywatności.</a>
+                </label>
+
               </div>
-            </label>
+
+            <div class="send-button">
+              <button type="submit" class="contact-button">
+                Wyślij
+              </button>
+            </div>
           </form>
         </div>
 
