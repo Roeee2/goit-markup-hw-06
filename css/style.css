@@ -23,6 +23,7 @@
   --sub-button-border: rgba(255, 255, 255, 0.3);
   --form-border: #21212133;
 }
+
 body {
   font-family: "Roboto", "Arial", "sans-serif";
   color: #212121;
@@ -30,18 +31,21 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
+
 .footer-container {
   width: 1600px;
   margin-inline: auto;
   display: flex;
   flex-direction: row;
 }
+
 .header-container {
   display: flex;
   width: 1600px;
   height: 80px;
   margin-inline: auto;
 }
+
 .header-box {
   background: var(--white);
   display: flex;
@@ -59,7 +63,7 @@ a {
 a:hover,
 a:focus {
   color: var(--web-studio-blue);
-  transition-property: transform, opacity, visibility;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
@@ -68,6 +72,7 @@ a:focus {
   color: var(--web-studio-blue);
   padding-left: 215px;
 }
+
 .logo-studio {
   color: var(--black);
 }
@@ -75,18 +80,18 @@ a:focus {
 .logo-studio:hover,
 .logo-studio:focus {
   color: var(--black);
-  transition-property: transform, opacity, visibility;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
+
 .nav-spacing {
   display: flex;
   justify-content: space-between;
   padding: 5px 0;
 }
+
 .nav-spacing h3 {
   margin-left: 93px;
 }
+
 .nav-spacing ul {
   display: flex;
   gap: 30px;
@@ -94,14 +99,18 @@ a:focus {
   padding: 0;
   margin: 0;
 }
+
 .nav-spacing li {
   position: relative;
 }
+
 .nav-item {
 }
+
 .nav-item-active a {
   color: var(--web-studio-blue);
 }
+
 .nav-item-active::after {
   content: "";
   justify-content: center;
@@ -112,7 +121,11 @@ a:focus {
   display: flex;
   border-radius: 2px;
   transform: translateY(32px);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
+
 .nav-spacing li:hover::after,
 .nav-spacing li:focus::after {
   content: "";
@@ -124,7 +137,7 @@ a:focus {
   display: flex;
   border-radius: 2px;
   transform: translateY(32px);
-  transition-property: transform, opacity, visibility;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
@@ -135,26 +148,29 @@ a:focus {
   padding: 5px 0;
   margin-left: 225px;
 }
+
 .contact-spacing svg {
   vertical-align: middle;
   margin-right: 10px;
 }
+
 .contact-spacing a {
   margin-left: 50px;
   color: var(--text-color);
 }
+
 .contact-spacing a:hover svg,
 .contact-spacing a:focus svg {
   --color1: var(--web-studio-blue);
-  transition-property: transform, opacity, visibility;
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
+
 .contact-spacing a:hover,
 .contact-spacing a:focus {
   color: var(--web-studio-blue);
-  --color1: var(var(--web-studio-blue));
-  transition-property: transform, opacity, visibility;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
@@ -341,7 +357,7 @@ a:focus {
 .team-socials li:focus {
   background-color: var(--web-studio-blue);
   --color1: var(--white);
-  transition-property: transform, opacity, visibility;
+  transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
@@ -375,7 +391,7 @@ a:focus {
 .customers-icons li:focus {
   border-color: var(--web-studio-blue);
   --color1: var(--web-studio-blue);
-  transition-property: transform, opacity, visibility;
+  transition-property: border-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
@@ -461,7 +477,7 @@ a:focus {
 .footer-socials li:focus {
   background-color: var(--web-studio-blue);
   --color1: var(--white);
-  transition-property: transform, opacity, visibility;
+  transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
@@ -565,7 +581,7 @@ a:focus {
 .portfolio-types:focus a {
   color: var(--white);
   box-shadow: var(--shadow);
-  transition-property: transform, opacity, visibility;
+  transition-property: color, box-shadow, text-shadow, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
   box-shadow: inset 0 0 5x var(--black);
@@ -576,7 +592,7 @@ a:focus {
 .portfolio-gallery li:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
-  transition-property: transform, opacity, visibility;
+  transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
@@ -610,7 +626,7 @@ a:focus {
 .portfolio-gallery li:hover .portfolio-overlay,
 .portfolio-gallery li:focus .portfolio-overlay {
   transform: translateY(0);
-  transition-property: transform, opacity, visibility;
+  transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
@@ -680,7 +696,7 @@ a:focus {
 .order-service:focus {
   color: var(--white);
   box-shadow: var(--shadow);
-  transition-property: transform, opacity, visibility;
+  transition-property: color, box-shadow, text-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
   box-shadow: inset 0 0 5x var(--black);
@@ -723,7 +739,7 @@ a:focus {
 .modal-close:focus {
   border: 1px solid var(--modal-shadow);
   box-shadow: 0px 2px 1px 1px var(--shadow);
-  transition-property: transform, opacity, visibility;
+  transition-property: border, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
@@ -791,10 +807,16 @@ a:focus {
 .contact-form-box:hover,
 .contact-form-box:focus {
   border: 1px solid var(--web-studio-blue);
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
 .contact-form-comment:hover,
 .contact-form-comment:focus {
   border: 1px solid var(--web-studio-blue);
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
 
 .contact-field {
@@ -814,13 +836,20 @@ a:focus {
 .contact-field svg:focus {
   fill: var(--web-studio-blue);
   --color1: var(--web-studio-blue);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
 .contact-field:focus-within svg {
   fill: var(--web-studio-blue);
   --color1: var(--web-studio-blue);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
 .checkbox-container {
   display: flex;
+  justify-content: center;
 }
 
 .checkbox-container a {
@@ -859,6 +888,9 @@ a:focus {
   svg {
   display: block;
   --color1: var(--web-studio-blue);
+  transition-property: transform, opacity, visibility;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
 
 .checkbox-container label {
