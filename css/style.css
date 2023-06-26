@@ -402,6 +402,7 @@ a:focus {
   position: relative;
   fill: var(--web-studio-grey);
   color: var(--web-studio-grey);
+  --color1: var(--web-studio-grey);
   transition-property: fill, color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
@@ -412,6 +413,7 @@ a:focus {
   background-color: var(--web-studio-blue);
   fill: var(--white);
   color: var(--white);
+  --color1: var(--white);
   transition-property: fill, color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
