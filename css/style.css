@@ -451,6 +451,7 @@ a:focus {
 .customers-icons li:focus {
   border-color: var(--web-studio-blue);
   --color1: var(--web-studio-blue);
+  fill: var(--web-studio-blue);
   transition-property: border-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
