@@ -11,7 +11,7 @@
   --button-grey: #f5f4fa;
   --border: #eeeeee;
   --header-border: #ececec;
-  --color1: #afb1b8;
+  --web-studio-grey: #afb1b8;
   --footer-socials-bg: rgba(255, 255, 255, 0.1);
   --shadow: rgba(0, 0, 0, 0.1);
   --modal-shadow3: rgba(0, 0, 0, 0.12);
@@ -400,8 +400,8 @@ a:focus {
   width: 44px;
   border-radius: 50%;
   position: relative;
-  fill: var(--color1);
-  color: var(--color1);
+  fill: var(--web-studio-grey);
+  color: var(--web-studio-grey);
   transition-property: fill, color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
@@ -460,12 +460,12 @@ a:focus {
   align-items: center;
   width: 170px;
   height: 92px;
-  border: solid 1px var(--color1);
+  border: solid 1px var(--web-studio-grey);
   border-radius: 4px;
   transition-property: border-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
-  fill: var(--color1);
+  fill: var(--web-studio-grey);
 }
 
 .address {
@@ -865,7 +865,7 @@ a:focus {
   transition-property: border, box-shadow;
   transition-duration: 2250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
-  fill: var(--color1);
+  fill: var(--web-studio-grey);
 }
 
 .modal-close:hover,
