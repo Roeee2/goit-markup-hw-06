@@ -401,7 +401,8 @@ a:focus {
   border-radius: 50%;
   position: relative;
   fill: var(--color1);
-  transition-property: fill, background-color;
+  color: var(--color1);
+  transition-property: fill, color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
@@ -410,7 +411,8 @@ a:focus {
 .team-socials li:focus {
   background-color: var(--web-studio-blue);
   fill: var(--white);
-  transition-property: fill, background-color;
+  color: var(--white);
+  transition-property: fill, color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
