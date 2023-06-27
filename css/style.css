@@ -431,8 +431,17 @@ a:focus {
 
 .team-socials-icon {
   fill: var(--web-studio-grey);
+  transition-property: fill;
+  transition-duration: 1250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
 }
-
+.team-socials li:hover .team-socials-icon,
+.team-socials li:focus .team-socials-icon {
+  fill: var(--white);
+  transition-property: fill;
+  transition-duration: 1250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
+}
 .customers-icons {
   display: flex;
   flex-direction: row;
